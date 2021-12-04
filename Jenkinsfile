@@ -12,7 +12,7 @@ node {
     def buildInfo
 
     stage ('Clone') {
-        git url: 'https://github.com/cloudacademy/devops-webapp.git'
+        git url: 'https://github.com/manojmcn/devops-webapp.git'
     }
 
     stage ('Artifactory Configuration') {
